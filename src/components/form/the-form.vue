@@ -7,7 +7,7 @@
                 <p class="text-white text-[18px] tracking-[.9px] mb-[25px]">XITA基本服務為$0，只按你嘅生意及預約數量收費，避免一開始收取大額月費年費，真真正正與創業家同行，零成本展開自由生活態度，共同迎接事業高峰！</p>
             </div>
            <!-- form -->
-            <div class="xl:w-1/2">
+            <div data-aos="fade-left" data-aos-duration="1500" class="xl:w-1/2">
                 <div class="mb-[25px]">
                     <p class="text-white text-[14px] font-semibold tracking-[.7px]">名字</p>
                     <input class="w-full rounded-[10px] bg-white px-2 py-3 outline-none"/>

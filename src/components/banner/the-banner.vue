@@ -1,8 +1,8 @@
 <template>
     <div class="bg-[#EDEDED]">
-        <div class="container xl:flex xl:flex-wrap xl:items-center xl:justify-between pb-20 ">
+        <div class="container xl:flex xl:flex-wrap xl:items-center xl:justify-between pb-20 " data-aos="fade-right" data-aos-duration="1500">
             <!-- img -->
-            <div class="relative pb-[60px] xl:w-[60%]  xl:mr-[105px]">
+            <div class="relative pb-[60px] xl:w-[60%]  xl:mr-[105px]" >
                 <img src="../../assets/img/banner/banner.png" alt="" class="w-full">
                 <div class="icon-box absolute right-[15%] top-[20%] w-[10%]">
                     <img src="../../assets/img/banner/icon1.png" alt="" class="w-full">

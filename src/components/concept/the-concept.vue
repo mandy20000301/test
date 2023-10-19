@@ -2,8 +2,8 @@
     <div class="relative bg-[#EDEDED] xl:pb-[136px]">
         <div class="bg-primary-01 py-10 xl:pt-[100px] xl:pb-[139px] concept-box">
             <div class="container">
-                <h3 class="text-primary-04 text-[36px] font-semibold tracking-[3.6px] mb-[25px] xl:mb-[49px] text-center">XITA團隊理念</h3>
-                <p class="text-white font-medium tracking-[2.2px] mb-[25px] xl:w-[500px] xl:mx-auto xl:text-center">
+                <h3 data-aos="fade-down" data-aos-duration="1500" class="text-primary-04 text-[36px] font-semibold tracking-[3.6px] mb-[25px] xl:mb-[49px] text-center">XITA團隊理念</h3>
+                <p data-aos="fade-down" data-aos-duration="1500" class="text-white font-medium tracking-[2.2px] mb-[25px] xl:w-[500px] xl:mx-auto xl:text-center">
                     我哋相信早在體驗服務前，由搜尋同預約起，客人同商戶嘅關係已經建立，每一步都影響客人對商戶評價，所以XITA首要宗旨係達成雙方完美體驗。</p>
                 <p class="text-white text-[16px]  tracking-[.8px] font-semibold text-center xl:text-left mb-[25px] xl:mb-[16px]">XITA用戶真實評價</p>
             </div>

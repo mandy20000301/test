@@ -8,7 +8,7 @@
         <div class="half-bg pb-[40px]">
             <div class="container">
                 <div class="w-fit mx-auto xl:w-full xl:mx-0 grid gap-[25px] grid-cols-1 xl:grid-cols-3 xl:gap-[20px] ">
-                    <PlatformCard v-for="i in info" :key="i.id" :info="i" />
+                    <PlatformCard v-for="i in info" :key="i.id" :info="i" data-aos="fade-down" data-aos-duration="1500"/>
                 </div>
             </div>
         </div>

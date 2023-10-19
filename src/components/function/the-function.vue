@@ -2,7 +2,7 @@
     <div class="container pb-[30px] xl:pb-0">
         <h3 class="text-[36px] font-semibold tracking-[3.6px] text-primary-03 text-center mb-[25px]">功能完美貼合期待</h3>
         <!-- 1 -->
-        <div class="mb-[60px] xl:mb-0 xl:flex xl:flex-wrap xl:items-center xl:justify-between">
+        <div data-aos="fade-right" data-aos-duration="1500" class="mb-[60px] xl:mb-0 xl:flex xl:flex-wrap xl:items-center xl:justify-between">
             <div class="img-box xl:w-1/2 xl:mr-[43px]  mb-[25px] xl:mb-0 relative">
                 <img src="../../assets/img/function/feature1.png" alt="" class="w-full">
                 <div class="icon-box absolute left-[10%] top-[10%] w-[13%]">
@@ -15,7 +15,7 @@
             </div>
         </div>
         <!-- 2 -->
-        <div class="mb-[71px] xl:mb-0 xl:flex xl:flex-wrap xl:items-center xl:justify-between">
+        <div data-aos="fade-left" data-aos-duration="1500" class="mb-[71px] xl:mb-0 xl:flex xl:flex-wrap xl:items-center xl:justify-between">
             <div class="img-box xl:w-1/2 mb-[25px] xl:mb-0">
                 <img src="../../assets/img/function/feature2.png" alt="" class="w-full">
             </div>
@@ -31,7 +31,7 @@
             </div>
         </div>
         <!-- 3 -->
-        <div class="xl:flex xl:flex-wrap xl:items-center xl:justify-between">
+        <div data-aos="fade-right" data-aos-duration="1500" class="xl:flex xl:flex-wrap xl:items-center xl:justify-between">
             <div class="img-box xl:w-1/2 xl:mr-[57px]  mb-[25px] xl:mb-0">
                 <img src="../../assets/img/function/feature3.png" alt="" class="w-full">
             </div>
