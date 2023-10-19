@@ -1,5 +1,15 @@
 <template>
-    <div>
-        <img src="../assets/img/logo.png" alt="" class="w-[40px]">
+    <div class="container border">
+        <div class="flex flex-wrap items-center justify-between pt-[13px] xl:pt-[80px] ">
+            <img src="../assets/img/logo.png" alt="" class="w-[73px] xl:w-[160px]">
+            <button class="btn">Login / Sign up</button>
+        </div>
+        
     </div>
 </template>
+<style scoped >
+h1{
+    font-family: PingFang HK;
+    font-size: 200px;
+}
+</style>
