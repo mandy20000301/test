@@ -1,12 +1,18 @@
-.btn{
-    @apply p-[15px] rounded-full text-[16px] font-bold bg-[#5B61F4] text-white xl:py-[20px] xl:px-[30px] xl:text-[18px] hover:bg-[#5257DB];
-    font-family: Inter !important;
-}
-.container {
-    @apply mx-auto max-w-[1680px] px-4 lg:px-[60px] 2xl:px-[98px];
-}
 @tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
+*{
+    @apply font-chinese;
+}
+.btn{
+    @apply p-[15px] rounded-full text-[16px] font-bold bg-primary-01 text-white xl:py-[20px] xl:px-[30px] xl:text-[18px] hover:bg-primary-02 !font-english block;
+}
+.btn-xl{
+    @apply rounded-full text-[18px] font-bold bg-primary-01 text-white py-[20px] px-[60px]  hover:bg-primary-02 !font-english block;
+}
+
+.container {
+    @apply mx-auto max-w-[1680px] px-4 lg:px-[60px] 2xl:px-[98px];
+}

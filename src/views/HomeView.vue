@@ -1,14 +1,16 @@
 <template>
-  <!-- <div>aaa</div> -->
+  <div>
+    <TheBanner/>
+  </div>
 </template>
 
 <script>
+import TheBanner from '@/components/banner/the-banner.vue'
 export default {
   name: 'Home',
-  methods: {
-  },
-  mounted() {
-  },
+  components: {
+    TheBanner
+  }
 }
 </script>
 <style scoped lang="scss">

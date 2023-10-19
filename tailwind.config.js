@@ -15,6 +15,20 @@ module.exports = {
         "4xl": "1800px",
         "5xl": "1920px",
       },
+      colors: {
+        'primary-01': '#5B61F4',
+        'primary-02': '#5257DB',
+        'primary-03': '#1A1A31',
+
+      },
+      fontFamily: {
+        chinese: [
+            "PingFang HK",
+        ],
+        english: [
+            "Inter",
+        ],
+    },
     },
     container: {
       center: true,
