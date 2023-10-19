@@ -3,8 +3,11 @@
         <h3 class="text-[36px] font-semibold tracking-[3.6px] text-primary-03 text-center mb-[25px]">功能完美貼合期待</h3>
         <!-- 1 -->
         <div class="mb-[60px] xl:mb-0 xl:flex xl:flex-wrap xl:items-center xl:justify-between">
-            <div class="img-box xl:w-1/2 xl:mr-[43px]  mb-[25px] xl:mb-0">
+            <div class="img-box xl:w-1/2 xl:mr-[43px]  mb-[25px] xl:mb-0 relative">
                 <img src="../../assets/img/function/feature1.png" alt="" class="w-full">
+                <div class="icon-box absolute left-[10%] top-[10%] w-[13%]">
+                    <img src="../../assets/img/function/icon1.png" alt="" class="w-full">
+                </div>
             </div>
             <div class="txt-box xl:w-1 xl:grow">
                 <h4 class="text-primary-01 text-center text-[30px] font-semibold tracking-[1.5px] mb-[25px] xl:text-left xl:mb-12">開店容易火速接單</h4>
@@ -51,4 +54,23 @@ export default {
  ol{
     @apply pl-5 list-decimal;
  }
+ @keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+.icon-box {
+    transform: translatey(0px);
+    animation: float 4s ease-in-out infinite;
+}
+
 </style>
