@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container pb-[30px] xl:pb-0">
         <h3 class="text-[36px] font-semibold tracking-[3.6px] text-primary-03 text-center mb-[25px]">功能完美貼合期待</h3>
         <!-- 1 -->
         <div class="mb-[60px] xl:mb-0 xl:flex xl:flex-wrap xl:items-center xl:justify-between">

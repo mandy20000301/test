@@ -19,6 +19,7 @@ module.exports = {
         'primary-01': '#5B61F4',
         'primary-02': '#5257DB',
         'primary-03': '#1A1A31',
+        'primary-04': '#D4FC68',
 
       },
       fontFamily: {
