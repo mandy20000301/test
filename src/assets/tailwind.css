@@ -12,6 +12,9 @@
 .btn-xl{
     @apply rounded-full text-[18px] font-bold bg-primary-01 text-white py-[20px] px-[60px]  hover:bg-primary-02 !font-english block;
 }
+.btn-yellow{
+    @apply rounded-full text-[18px] font-bold bg-primary-04 text-white py-[20px] px-[60px]  hover:bg-[#EAFEB4] text-primary-01 block;
+}
 
 .container {
     @apply mx-auto max-w-[1680px] px-4 lg:px-[60px] 2xl:px-[98px];

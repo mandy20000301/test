@@ -6,6 +6,7 @@
     <TheConcept/>
     <ThePartner/>
     <TheWoman/>
+    <TheForm/>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import TheFunction from '@/components/function/the-function.vue'
 import TheConcept from '@/components/concept/the-concept.vue'
 import ThePartner from '@/components/partner/the-partner.vue'
 import TheWoman from '@/components/woman/the-woman.vue'
+import TheForm from '@/components/form/the-form.vue'
 export default {
   name: 'Home',
   components: {
@@ -24,7 +26,8 @@ export default {
     TheFunction,
     TheConcept,
     ThePartner,
-    TheWoman
+    TheWoman,
+    TheForm
   }
 }
 </script>
