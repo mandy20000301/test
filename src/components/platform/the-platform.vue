@@ -1,11 +1,11 @@
 <template>
-    <div>
+    <div class="mb-[30px] xl:mb-[108px]">
         <div class="bg-[#EDEDED]">
             <div class="container">
                 <h3 class="text-[36px] font-semibold tracking-[3.6px] text-primary-03 text-center pb-[25px]">嶄新網店架設平台</h3>
             </div>
         </div>
-        <div class="half-bg">
+        <div class="half-bg pb-[40px]">
             <div class="container">
                 <div class="w-fit mx-auto xl:w-full xl:mx-0 grid gap-[25px] grid-cols-1 xl:grid-cols-3 xl:gap-[20px] ">
                     <PlatformCard v-for="i in info" :key="i.id" :info="i" />
