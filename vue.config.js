@@ -9,7 +9,7 @@ module.exports = defineConfig({
 		},
 	},
 	publicPath: process.env.NODE_ENV === 'production'
-		? '/test/'
+		? '/xita/'
 		: '/',
 	productionSourceMap: false,
 	filenameHashing: false
